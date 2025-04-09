@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+<title>Static Web Page</title>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 10px;
+  text-align: center;
+  font-weight: 14px;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+</style>
+</head>
+<body>
+<div class="about-section">
+  <h1>Assignment No. 2</h1>
+  <h1>About Me</h1>
+  <p>Hello! Everyone... I am Parvej. I am from DYPCET, pursuing my bachelor's degree in Computer Science.</p>
+  <p>Look at my Projects where i have applied my knowledge to bulid this websites.</p>
+</div>
+
+<h2 style="text-align:center">My Projects</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="Stayhub.jpg" alt="Stayhub" style="width:100%">
+      <div class="container">
+        <h2>StayHub</h2>
+        <p class="title">Capstone Project</p>
+        <p>This website helps students to find Pg's and rooms to their nearby college.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="Ganesha.png" alt="Ganesha" style="width:100%">
+      <div class="container">
+        <h2>Ganesha using 3D Modelling</h2>
+        <p class="title">Blender (3D Modelling)</p>
+        <p>I have created a 3d model of ganesha using a blender software.</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="Smartdocs.png" alt="Smartdocs" style="width:100%">
+      <div class="container">
+        <h2>Smartdocs</h2>
+        <p class="title">CEP Project</p>
+        <p>This website helps Students and teachers to maintain their documents and they can share easily. i have created this Project under Community Engagement Project Program.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
